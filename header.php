@@ -39,7 +39,7 @@ $settings = get_fields('theme-options');
 				<?php
 				wp_nav_menu([
 					'theme_location'	=> 'primary',
-					'container'				=> 'ul',
+					'container'			=> 'ul',
 				]);
 				?>
 			</nav><!-- .nav-menu -->
