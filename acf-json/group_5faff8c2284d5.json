@@ -640,6 +640,11 @@
                 "param": "post_template",
                 "operator": "!=",
                 "value": "tpl-altrePagine.php"
+            },
+            {
+                "param": "options_page",
+                "operator": "!=",
+                "value": "theme-options"
             }
         ],
         [
@@ -647,6 +652,11 @@
                 "param": "page_template",
                 "operator": "==",
                 "value": "tpl-home.php"
+            },
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-options"
             }
         ]
     ],
@@ -658,5 +668,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1605454497
+    "modified": 1605626991
 }
