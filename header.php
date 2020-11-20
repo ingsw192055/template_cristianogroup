@@ -3,9 +3,14 @@
 $settings = get_fields('theme-options');
 ?>
 <style>
-	#hero{background-image: url(<?php echo $settings["banner"]["url"]; ?>) !important;}
-	
-	.vbox-content{ margin-top: 250px !important; margin-bottom: 200px !important;}
+	#hero {
+		background-image: url(<?php echo $settings["banner"]["url"]; ?>) !important;
+	}
+
+	.vbox-content {
+		margin-top: 250px !important;
+		margin-bottom: 200px !important;
+	}
 </style>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -56,10 +61,10 @@ $settings = get_fields('theme-options');
 					<div data-aos="zoom-out">
 						<h2><?= $settings['testo_su_banner']; ?></h2>
 						<h3><?= $settings['sottotitolo_su_banner']; ?></h3>
-						<?php if($settings['button_banner']):?>
-						<div class="text-center text-lg-left">
-              				<a href="/<?=$settings['button_banner']; ?>" class="btn-get-started scrollto"><?=$settings['text_button']; ?></a>
-						</div>
+						<?php if ($settings['button_banner']) : ?>
+							<div class="text-center text-lg-left">
+								<a href="/<?= $settings['button_banner']; ?>" class="btn-get-started scrollto"><?= $settings['text_button']; ?></a>
+							</div>
 						<?php endif; ?>
 					</div>
 				</div>
